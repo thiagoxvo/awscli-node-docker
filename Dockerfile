@@ -7,7 +7,7 @@ RUN apt-get update && apt-get install -y\
       zip
 
 RUN pip install \
-      awsebcli
+      awsebcli \
       awscli
 
 CMD ["node"]

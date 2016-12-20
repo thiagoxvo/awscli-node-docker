@@ -1,4 +1,4 @@
-FROM node:6.9.1
+FROM node:6.9.2
 
 RUN apt-get update && apt-get install -y\
       python \

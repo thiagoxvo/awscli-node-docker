@@ -10,6 +10,6 @@ RUN pip install \
       awsebcli \
       awscli
 
-RUN npm install -g yarn
+RUN npm install -g yarn@0.18.1
 
 CMD ["node"]

@@ -11,6 +11,6 @@ RUN pip install \
       awsebcli==3.7.4 \
       awscli==1.11.52
 
-RUN npm install -g yarn@0.21.3 codeclimate-test-reporter@0.4.1
+RUN npm install -g codeclimate-test-reporter@0.4.1
 
 CMD ["node"]

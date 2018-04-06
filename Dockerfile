@@ -1,4 +1,4 @@
-FROM cypress/base:8
+FROM cypress/browsers:chrome65-ff57
 
 RUN apt-get update && apt-get install -y\
       python \
